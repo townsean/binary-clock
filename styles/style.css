@@ -41,6 +41,10 @@ footer {
     margin: 1vmin 0;
 }
 
+.led--on {
+    background-color: orange;
+}
+
 #clock,
 #hours,
 #minutes,
