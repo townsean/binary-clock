@@ -5,17 +5,18 @@ html {
 
 body {
     height: 100%;
+    flex-direction: column;
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 main {
-    height: 100%;
+    margin: auto auto;
 }
 
 footer {
-    align-self: flex-end;
     padding: 1.5rem;
 
     a {
@@ -29,4 +30,52 @@ footer {
         height: 1.5rem;
         margin: 0 .25rem;
     }
+}
+
+.led {
+    width: 4vmin;
+    height: 4vmin;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 1vmin 0;
+}
+
+#clock,
+#hours,
+#minutes,
+#seconds {
+    display: flex;
+}
+
+#hours,
+#minutes,
+#seconds {
+    margin: 0 2vmin; 
+
+    .tens-column {
+        align-self: flex-end;
+        margin: 0 1vmin;
+    }
+}
+
+#clock {
+    align-items: center;
+    justify-content: center;
+}
+
+.number-eight {
+
+}
+
+.number-four {
+
+}
+
+.number-two {
+
+}
+
+.number-one {
+
 }
